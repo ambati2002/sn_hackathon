@@ -19,7 +19,6 @@
 		096C287A1EF272D700DEE1E6 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096C28791EF272D700DEE1E6 /* MenuTableViewController.m */; };
 		096C287B1EF278AE00DEE1E6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096C28771EF2710900DEE1E6 /* SWRevealViewController.m */; };
 		096C28811EF2866300DEE1E6 /* ContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096C28801EF2866300DEE1E6 /* ContactUsViewController.m */; };
-		E52B712D1F29B08002105410 /* libPods-ACMECorp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 616B558FB3B33445CDEDF779 /* libPods-ACMECorp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +43,6 @@
 		096C28791EF272D700DEE1E6 /* MenuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 		096C287F1EF2866300DEE1E6 /* ContactUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactUsViewController.h; sourceTree = "<group>"; };
 		096C28801EF2866300DEE1E6 /* ContactUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactUsViewController.m; sourceTree = "<group>"; };
-		616B558FB3B33445CDEDF779 /* libPods-ACMECorp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ACMECorp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E891FA562D530BCCEE8B118 /* Pods-ACMECorp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACMECorp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ACMECorp/Pods-ACMECorp.release.xcconfig"; sourceTree = "<group>"; };
 		D34FF73457FF8F07EF8BC7A2 /* Pods-ACMECorp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACMECorp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACMECorp/Pods-ACMECorp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E52B712D1F29B08002105410 /* libPods-ACMECorp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +146,6 @@
 		0B478628E835AAF2368BC5A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				616B558FB3B33445CDEDF779 /* libPods-ACMECorp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -423,9 +419,11 @@
 			baseConfigurationReference = D34FF73457FF8F07EF8BC7A2 /* Pods-ACMECorp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4DCW67U45E;
 				INFOPLIST_FILE = ACMECorp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.servicenow.ACMECorp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snow.ACMECorp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -436,9 +434,11 @@
 			baseConfigurationReference = 9E891FA562D530BCCEE8B118 /* Pods-ACMECorp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4DCW67U45E;
 				INFOPLIST_FILE = ACMECorp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.servicenow.ACMECorp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snow.ACMECorp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
